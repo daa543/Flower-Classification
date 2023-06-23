@@ -3,6 +3,7 @@
 # Objectives
 
  1. Become familiar with CNNs models and transfer learning.
+ 
  2. Applying fine-tuning and analyzing the performance of different classifiers on a large
  image dataset.
 
@@ -13,13 +14,19 @@ You are given the petals to metals dataset, which is a dataset for flower classi
 # 2 Data
 
 # 2.1 Download the Dataset and Understand the Format
+
  (a) Download the dataset from the class’s Microsoft Teams.
+ 
  (b) Write your own function that loads an image and visualize some images from different classes.
+ 
  (c) Display the number of samples in each class.
 
  # 2.2 Split Data
+ 
  (a) Split the training data into 90% training and the rest for validation.
+ 
  (b) Use the validation data during training as validation set.
+ 
  (c) Use the test data only for model evaluation, don’t introduce it at any step during training.
 
  # 2.3 Data Preprocessing
@@ -35,8 +42,11 @@ You are given the petals to metals dataset, which is a dataset for flower classi
 
  # (b) Famous CNN Architectures
  You may use any two of the following architectures:
+ 
  (a) VGG
+ 
  (b) ResNet
+ 
  (c) GoogLeNet
 
  # (c) Transfer Learning
@@ -48,7 +58,9 @@ You are given the petals to metals dataset, which is a dataset for flower classi
 
  # 4 Big Picture
  Compare between the performance of the different models by realizing the following on the testing data.
+ 
  • Compute the accuracy and Macro F-Score for each model.
+ 
  • Plot the confusion matrices and find the most confusing classes.
 
  # 5 Report
